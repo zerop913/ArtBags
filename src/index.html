@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtBags</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-[4500px] bg-heroColor">
+    <section>
+      <!-- Header -->
+      <header
+        class="mx-auto flex max-w-[1251.62px] items-center justify-around pt-[44px] lg:px-5"
+      >
+        <!-- Logo -->
+
+        <article class="flex items-center justify-between">
+          <img src="./assets/header/logo.svg" />
+        </article>
+
+        <!-- Menu Desktop -->
+
+        <nav class="flex md:hidden">
+          <ul class="flex items-center gap-[41px]">
+            <li>
+              <a
+                href="#"
+                class="relative text-xl font-semibold leading-4 text-white after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-full after:scale-0 after:bg-white after:transition-transform hover:after:scale-100"
+                >Главная</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="relative text-xl font-semibold leading-4 text-white after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-full after:scale-0 after:bg-white after:transition-transform hover:after:scale-100"
+                >Шопперы</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="relative text-xl font-semibold leading-4 text-white after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-full after:scale-0 after:bg-white after:transition-transform hover:after:scale-100"
+                >Готовые варианты</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Menu Mobile -->
+        <nav
+          id="mobile-menu"
+          class="fixed left-0 top-0 right-0 bottom-0 hidden items-center justify-center bg-heroColor"
+        >
+          <ul class="flex flex-col items-center gap-10">
+            <li><a href="#" class="text-xl text-white">Главная</a></li>
+            <li><a href="#" class="text-xl text-white">Шопперы</a></li>
+            <li><a href="#" class="text-xl text-white">Готовые варианты</a></li>
+            <li><a href="#" class="text-xl text-white">Корзина</a></li>
+          </ul>
+        </nav>
+
+        <!-- Log in -->
+        <article class="flex md:hidden">
+          <button
+            class="bg-orange py-[14px] px-12 text-center text-[20px] font-semibold text-white transition-colors hover:bg-[#f06b6b]"
+          >
+            Корзина
+          </button>
+        </article>
+
+        <!-- Burger menu -->
+        <button id="burger" class="group relative hidden h-5 w-[30px] md:block">
+          <span
+            class="absolute top-0 left-0 h-[1px] w-full bg-white transition-transform group-[.active]:translate-y-2 group-[.active]:rotate-45"
+          ></span>
+          <span
+            class="absolute top-1/2 left-0 h-[1px] w-full bg-white transition-opacity group-[.active]:opacity-0"
+          ></span>
+          <span
+            class="absolute bottom-0 left-0 h-[1px] w-full bg-white transition-transform group-[.active]:-translate-y-[11px] group-[.active]:-rotate-45"
+          ></span>
+        </button>
+      </header>
+    </section>
+
+    <!-- Hero -->
+
+    <section>
+      <div
+        class="mx-auto mt-20 grid h-max max-w-[1252px] grid-cols-[55%_45%] place-items-center justify-center lg:px-5 md:grid-cols-1"
+      >
+        <div>
+          <h1
+            class="text-white font-extrabold text-[86px] lg:text-[65px] lg:leading-normal md:text-center sm:text-[52px] sm:leading-normal xs:text-[40px]"
+          >
+            Сумка-шоппер
+          </h1>
+          <p
+            class="text-orange text-[24px] leading-[28px] mt-[30px] tracking-[0.35em] lg:text-[18px] lg:mt-[20px] md:text-center md:mt-[10px] sm:text-center sm:text-[14px] xs:text-[12px]"
+          >
+            Берите с собой стиль и удобство!
+          </p>
+
+          <p
+            class="text-[#D8D8D8] text-[20px] leading-[26px] mt-[31px] max-w-[652px] md:text-center md:mt-[20px] sm:text-[16px]"
+          >
+            Сумка-шоппер - это стильный и практичный аксессуар для повседневного
+            использования. Она обладает просторным внутренним отделением,
+            которое позволяет легко разместить все необходимые вещи.
+            Сумка-шоппер изготовлена из прочного материала, который обеспечивает
+            долговечность и устойчивость к повреждениям. Она также имеет удобные
+            ручки, которые позволяют комфортно носить сумку на плече или в руке.
+            Стильный дизайн и разнообразие цветов делают шоппер идеальным
+            выбором для любого наряда и события.
+          </p>
+        </div>
+        <div>
+          <img
+            src="./assets/hero/notimage.png"
+            alt="img"
+            class="md:mt-[28px] xs:mt-[28px]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Каталог товаров -->
+    <section class="mt-[144px]">
+      <h1
+        class="text-white font-extrabold text-[70px] text-center lg:text-[60px] sm:text-[50px]"
+      >
+        Каталог товаров
+      </h1>
+
+      <!-- Шопперы -->
+      <p
+        class="text-white font-light text-[64px] text-center mt-[102px] lg:text-[50px] sm:text-[40px] sm:mt-[40px]"
+      >
+        Шопперы
+      </p>
+
+      <div
+        class="mx-auto grid grid-cols-[50%_50%] place-items-center pt-[103px] md:grid-cols-1 sm:pt-[0px]"
+      >
+        <div>
+          <div
+            class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+          >
+            <img
+              src="./assets/catalog/notimg.png"
+              alt="img"
+              class="mt-[65px] px-[58px]"
+            />
+            <button
+              class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+            >
+              В корзину
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+        >
+          <img
+            src="./assets/catalog/notimg.png"
+            alt="img"
+            class="mt-[65px] px-[58px]"
+          />
+          <button
+            class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+          >
+            В корзину
+          </button>
+        </div>
+      </div>
+      <div
+        class="mx-auto grid grid-cols-[50%_50%] place-items-center pt-[103px] md:grid-cols-1 sm:pt-[0px]"
+      >
+        <div>
+          <div
+            class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+          >
+            <img
+              src="./assets/catalog/notimg.png"
+              alt="img"
+              class="mt-[65px] px-[58px]"
+            />
+            <button
+              class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+            >
+              В корзину
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+        >
+          <img
+            src="./assets/catalog/notimg.png"
+            alt="img"
+            class="mt-[65px] px-[58px]"
+          />
+          <button
+            class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+          >
+            В корзину
+          </button>
+        </div>
+      </div>
+
+      <!-- Готовые варианты -->
+      <p
+        class="text-white font-light text-[64px] text-center mt-[102px] lg:text-[50px] sm:text-[40px] sm:mt-[40px]"
+      >
+        Готовые варианты
+      </p>
+
+      <div
+        class="mx-auto grid grid-cols-[50%_50%] place-items-center pt-[103px] md:grid-cols-1 sm:pt-[0px]"
+      >
+        <div>
+          <div
+            class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+          >
+            <img
+              src="./assets/catalog/notimg.png"
+              alt="img"
+              class="mt-[65px] px-[58px]"
+            />
+            <button
+              class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+            >
+              В корзину
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+        >
+          <img
+            src="./assets/catalog/notimg.png"
+            alt="img"
+            class="mt-[65px] px-[58px]"
+          />
+          <button
+            class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+          >
+            В корзину
+          </button>
+        </div>
+      </div>
+      <div
+        class="mx-auto grid grid-cols-[50%_50%] place-items-center pt-[103px] md:grid-cols-1 sm:pt-[0px]"
+      >
+        <div>
+          <div
+            class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+          >
+            <img
+              src="./assets/catalog/notimg.png"
+              alt="img"
+              class="mt-[65px] px-[58px]"
+            />
+            <button
+              class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+            >
+              В корзину
+            </button>
+          </div>
+        </div>
+        <div
+          class="w-[457px] h-[596px] border-[5px] border-[#C2C2C2] rounded-[43px] transition-colors hover:bg-[#1E1B50] hover:border-[#322D81] sm:scale-75 sm:items-center"
+        >
+          <img
+            src="./assets/catalog/notimg.png"
+            alt="img"
+            class="mt-[65px] px-[58px]"
+          />
+          <button
+            class="ml-[117px] mt-[68px] custom-button py-[15px] px-[51px] text-white font-semibold text-2xl"
+          >
+            В корзину
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

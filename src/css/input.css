@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-raleway;
+  }
+}
+
+@layer base {
+  .custom-button {
+    background: #f29494;
+    width: 222px;
+    height: 57.42px;
+  }
+}
