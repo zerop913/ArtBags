@@ -21,7 +21,7 @@ function toggleMenu() {
 }
 toggleMenu();
 
-var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
 var rootElement = document.documentElement;
 
 function scrollToTop() {
