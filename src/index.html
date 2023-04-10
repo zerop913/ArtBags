@@ -32,21 +32,21 @@
           <ul class="flex items-center gap-[41px]">
             <li>
               <a
-                href="#"
+                href="#main"
                 class="relative text-xl font-semibold leading-4 text-white after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-full after:scale-0 after:bg-white after:transition-transform hover:after:scale-100"
                 >Главная</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#shoppers"
                 class="relative text-xl font-semibold leading-4 text-white after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-full after:scale-0 after:bg-white after:transition-transform hover:after:scale-100"
                 >Шопперы</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#ready_shoppers"
                 class="relative text-xl font-semibold leading-4 text-white after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-full after:scale-0 after:bg-white after:transition-transform hover:after:scale-100"
                 >Готовые варианты</a
               >
@@ -60,9 +60,13 @@
           class="fixed left-0 top-0 right-0 bottom-0 hidden items-center justify-center bg-heroColor"
         >
           <ul class="flex flex-col items-center gap-10">
-            <li><a href="#" class="text-xl text-white">Главная</a></li>
-            <li><a href="#" class="text-xl text-white">Шопперы</a></li>
-            <li><a href="#" class="text-xl text-white">Готовые варианты</a></li>
+            <li><a href="#main" class="text-xl text-white">Главная</a></li>
+            <li><a href="#shoppers" class="text-xl text-white">Шопперы</a></li>
+            <li>
+              <a href="#ready_shoppers" class="text-xl text-white"
+                >Готовые варианты</a
+              >
+            </li>
             <li><a href="#" class="text-xl text-white">Корзина</a></li>
           </ul>
         </nav>
@@ -93,7 +97,7 @@
 
     <!-- Hero -->
 
-    <section>
+    <section id="main">
       <div
         class="mx-auto mt-20 grid h-max max-w-[1252px] grid-cols-[55%_45%] place-items-center justify-center lg:px-5 md:grid-cols-1"
       >
@@ -142,6 +146,7 @@
 
       <!-- Шопперы -->
       <p
+        id="shoppers"
         class="text-white font-light text-[64px] text-center mt-[102px] lg:text-[50px] sm:text-[40px] sm:mt-[40px]"
       >
         Шопперы
@@ -226,6 +231,7 @@
 
       <!-- Готовые варианты -->
       <p
+        id="ready_shoppers"
         class="text-white font-light text-[64px] text-center mt-[102px] lg:text-[50px] sm:text-[40px] sm:mt-[40px]"
       >
         Готовые варианты
@@ -319,7 +325,7 @@
               <ul>
                 <li class="mt-6">
                   <a
-                    href=""
+                    href="#main"
                     class="text-xl text-[#706C83] transition-colors hover:text-white"
                     >Главная</a
                   >
@@ -330,7 +336,7 @@
               <ul>
                 <li class="mt-6">
                   <a
-                    href=""
+                    href="#shoppers"
                     class="text-xl text-[#706C83] transition-colors hover:text-white"
                     >Шопперы</a
                   >
@@ -341,7 +347,7 @@
               <ul>
                 <li class="mt-6">
                   <a
-                    href=""
+                    href="#ready_shoppers"
                     class="text-xl text-[#706C83] transition-colors hover:text-white"
                     >Готовые варианты</a
                   >
@@ -359,6 +365,7 @@
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
