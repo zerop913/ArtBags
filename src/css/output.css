@@ -571,12 +571,20 @@ body {
   margin-top: 5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
 
 .mt-\[102px\] {
   margin-top: 102px;
+}
+
+.mt-\[103px\] {
+  margin-top: 103px;
 }
 
 .mt-\[104px\] {
@@ -607,16 +615,64 @@ body {
   margin-top: 68px;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-\[40px\] {
+  margin-top: 40px;
 }
 
-.mt-\[103px\] {
-  margin-top: 103px;
+.mt-\[72px\] {
+  margin-top: 72px;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
+.ml-\[30px\] {
+  margin-left: 30px;
+}
+
+.ml-\[130px\] {
+  margin-left: 130px;
+}
+
+.ml-\[800px\] {
+  margin-left: 800px;
+}
+
+.ml-\[80px\] {
+  margin-left: 80px;
+}
+
+.ml-\[70px\] {
+  margin-left: 70px;
+}
+
+.ml-\[65px\] {
+  margin-left: 65px;
+}
+
+.ml-\[60px\] {
+  margin-left: 60px;
+}
+
+.mt-\[250\.5px\] {
+  margin-top: 250.5px;
+}
+
+.mt-\[253\.5px\] {
+  margin-top: 253.5px;
+}
+
+.mt-\[185\.5px\] {
+  margin-top: 185.5px;
+}
+
+.mt-\[170px\] {
+  margin-top: 170px;
 }
 
 .flex {
@@ -652,6 +708,10 @@ body {
   height: max-content;
 }
 
+.w-\[222px\] {
+  width: 222px;
+}
+
 .w-\[30px\] {
   width: 30px;
 }
@@ -662,10 +722,6 @@ body {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[222px\] {
-  width: 222px;
 }
 
 .max-w-\[1205px\] {
@@ -812,10 +868,6 @@ body {
 
 .pt-\[50px\] {
   padding-top: 50px;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
